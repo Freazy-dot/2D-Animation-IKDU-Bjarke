@@ -34,6 +34,7 @@ public class playerMovement : MonoBehaviour
             myAnimator.SetFloat("Y", movement.y);
 
             myAnimator.SetBool("isWalking", true);
+            
         }
 
         else
